@@ -10,5 +10,5 @@ while n <= days:
         daily_increase_avrage = no_of_organisms * avrage / 100
         no_of_organisms = no_of_organisms + daily_increase_avrage
         print(n, end="   ")
-        print("\t\t%f" % (no_of_organisms))
+        print("\t\t%f" % no_of_organisms)
         n = n + 1

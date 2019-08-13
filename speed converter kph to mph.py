@@ -1,6 +1,6 @@
-kph = float(60)
+kph = 60
 mph = float(kph * 0.621)
-speed = float(10)
+speed = 10
 # print(mph)
 stop = 140
 # while kph<stop:

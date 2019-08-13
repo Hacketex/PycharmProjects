@@ -10,5 +10,5 @@ while a <= check:
         b = b + 1
     avr = sum1 / 12
     print("-"*45)
-    print("total student addmission in %d year = %d \navrage addmission in %d year = %d\n" % (a, sum1, a, avr))
+    print("total student addmission in year %d = %d \navrage addmission in %d year = %d\n" % (a, sum1, a, avr))
     a = a + 1

@@ -2,9 +2,9 @@
 # created date=10 jun 2019
 # last modified date=10 jun 2019
 # http://github.com/hacketex
-firstname = input("enter ur first name")
+namefirst = input("enter ur first name")
 lastname = input("enter ur last name")
-print('welcome', firstname, lastname)
+print('welcome', namefirst, lastname)
 english = int(input("enter ur english subject marks"))
 hindi = int(input("enter ur hindi subject marks"))
 maths = int(input("enter ur math\'s subject marks"))

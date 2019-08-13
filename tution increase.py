@@ -14,7 +14,8 @@ while year <= 5:
         print("\t\t%d" % yr, end="  ")
         payment = data + amt
         print(" \t %.2f" % payment)
-        # print(" " * 10 + f'{data:.2f}' + " " * 10 + f'{sem:d}' + " " * 10 + "%d"%round(yr) + " " * 10 + f'{payment:.2f}' + " " * 10)
+        # print(" " * 10 + f'{data:.2f}' + " " * 10 + f'{sem:d}' + " " * 10 + "%d"%round(yr) + " " * 10
+        # + f'{payment:.2f}' + " " * 10)
         amt = amt + amt * 3 / 100
         sem = sem + 1
     year = year + 1
