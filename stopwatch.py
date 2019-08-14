@@ -7,10 +7,10 @@ while n <= no_of_round:
     slow = fast = lap
     if slow < lap:
         slow = lap
-        print("slower",slow)
+        #print("slower",slow)
     else:
         fast = lap
-        print("fast",fast)
+        #print("fast",fast)
     slow = slow + lap
     n = n + 1
 print("total round = %d\nslowest lap = %d\nfastest lap =%d" % (n, slow, fast))
